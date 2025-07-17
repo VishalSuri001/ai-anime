@@ -1,0 +1,50 @@
+2025-07-16 21:01:55,657 - INFO - Pipeline init.
+2025-07-16 21:01:55,657 - INFO - Pipeline - try to load and process anime data.
+2025-07-16 21:01:55,657 - ERROR - Custom Exception: Failed to load and process anime data | Error: None | File: Unknown File | Line: Unknown Line
+2025-07-16 21:03:06,854 - INFO - Pipeline init.
+2025-07-16 21:03:06,863 - INFO - Pipeline - try to load and process anime data.
+2025-07-16 21:03:06,863 - ERROR - Custom Exception: Failed to load and process anime data | Error: None | File: Unknown File | Line: Unknown Line
+2025-07-16 21:03:48,313 - INFO - Pipeline init.
+2025-07-16 21:03:48,318 - INFO - Pipeline - try to load and process anime data.
+2025-07-16 21:03:48,318 - ERROR - Custom Exception: Failed to load and process anime data | Error: None | File: Unknown File | Line: Unknown Line
+2025-07-16 21:05:26,955 - INFO - Pipeline init.
+2025-07-16 21:05:26,961 - INFO - Pipeline - try to load and process anime data.
+2025-07-16 21:05:26,961 - ERROR - Custom Exception: Failed to load and process anime data | Error: None | File: Unknown File | Line: Unknown Line
+2025-07-16 21:06:07,350 - INFO - Pipeline init.
+2025-07-16 21:06:07,365 - INFO - Pipeline - try to load and process anime data.
+2025-07-16 21:06:40,267 - INFO - Use pytorch device_name: mps
+2025-07-16 21:06:40,267 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-16 21:06:49,419 - INFO - Vector store built successfully.
+2025-07-16 21:07:38,921 - INFO - Pipeline init.
+2025-07-16 21:07:38,931 - INFO - Pipeline - try to load and process anime data.
+2025-07-16 21:07:42,173 - INFO - Use pytorch device_name: mps
+2025-07-16 21:07:42,173 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-16 21:07:46,146 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-16 21:07:51,363 - INFO - Vector store built successfully.
+2025-07-16 21:09:46,772 - INFO - Pipeline init.
+2025-07-16 21:09:46,781 - INFO - Pipeline - try to load and process anime data.
+2025-07-16 21:09:49,803 - INFO - Use pytorch device_name: mps
+2025-07-16 21:09:49,803 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-16 21:09:52,495 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-16 21:09:54,083 - INFO - Vector store built successfully.
+2025-07-16 22:14:59,209 - INFO - Anime Recommender Pipeline initialized successfully.
+2025-07-16 22:15:03,846 - INFO - Use pytorch device_name: mps
+2025-07-16 22:15:03,846 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-16 22:15:06,803 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-16 22:15:06,887 - ERROR - Error initializing Anime Recommender Pipeline: 'AnnimeRecommender' object has no attribute 'model_name'
+2025-07-16 22:23:18,858 - INFO - Anime Recommender Pipeline initialized successfully.
+2025-07-16 22:23:18,859 - INFO - Use pytorch device_name: mps
+2025-07-16 22:23:18,859 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-16 22:23:21,173 - ERROR - Error initializing Anime Recommender Pipeline: module 'langchain.chains.retrieval_qa' has no attribute 'RetrievalQA'
+2025-07-16 22:28:43,782 - INFO - Anime Recommender Pipeline initialized successfully.
+2025-07-16 22:28:47,805 - INFO - Use pytorch device_name: mps
+2025-07-16 22:28:47,805 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-16 22:28:50,469 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-16 22:28:50,660 - ERROR - Error initializing Anime Recommender Pipeline: module 'langchain.chains.retrieval_qa' has no attribute 'RetrievalQA'
+2025-07-16 22:32:51,105 - INFO - Anime Recommender Pipeline initialized successfully.
+2025-07-16 22:32:55,010 - INFO - Use pytorch device_name: mps
+2025-07-16 22:32:55,010 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-16 22:32:57,677 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-16 22:42:38,099 - INFO - Generating recommendations for question:  light hearted anime with school settings
+2025-07-16 22:42:41,468 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-16 22:42:41,482 - INFO - Recommendations generated successfully.
